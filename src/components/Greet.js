@@ -9,4 +9,4 @@ export default Greet
 //eg:- in App.js import MyComponent from './components/Greet'
 //named export
 
-export const NewGreet =()=><h1>Named Export 😏</h1>
+//export const NewGreet =()=><h1>Named Export 😏</h1>
