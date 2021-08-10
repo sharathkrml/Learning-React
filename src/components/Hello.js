@@ -1,15 +1,15 @@
 //simple functional component
 //JSX version
 import React from 'react'
-export const JSXHello = () =>{
+export const JSXHello = (props) =>{
+    console.log(props)
     return(
         <div className='Dummy'>
             <h1>
-                Hello Sharath
+                Hello {props.name} a.k.a {props.heroName}
             </h1>
+            {props.children}
         </div>
     )
 }
-export const WoJsxHello = () =>{
-    return React.createElement('div',{id:'Hello',className:'Dummy'},React.createElement('h1',null,'hello Sharath 😃'))
-}
+export default JSXHello;
