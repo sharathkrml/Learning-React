@@ -7,14 +7,8 @@ import JSXHello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      {/*<Welcome/>*/}
-      <JSXHello name='Tony Stark' heroName='Iron Man'>
-        <p>this is a paragraph only to Tony Stark</p>
-      </JSXHello>
-      <JSXHello name='Steve Rogers' heroName='Captain america'>
-      <button>Action</button></JSXHello>
-      <JSXHello name='Bruce Banner' heroName='Hulk'/>
-      </div>
+      <Welcome name='Tony Stark' heroName="Ironman" ></Welcome>  
+    </div>
   );
 }
 export default App;
