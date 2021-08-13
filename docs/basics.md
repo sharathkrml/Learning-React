@@ -18,3 +18,7 @@ DOM updates are handled gracefully
 ES6 concepts required for react
 
 let&const,arrow function ,template literal,default params,object literals,rest and spread,destructuring assignment
+
+
+rce -  snippet react class component export
+rconst -snippet class constructor 
