@@ -1,15 +1,24 @@
 //simple functional component
 //JSX version
 import React from 'react'
-export const JSXHello = (props) =>{
-    console.log(props)
+export const JSXHello = ({name,heroName}) =>{
     return(
         <div className='Dummy'>
             <h1>
-                Hello {props.name} a.k.a {props.heroName}
+                Hello {name} a.k.a {heroName} ⛑️
             </h1>
-            {props.children}
         </div>
     )
 }
-export default JSXHello;
+
+export const JSXHello2 = props =>{
+    const {name,heroName} =props
+    return(
+        <div className='Dummy'>
+            <h1>
+                Hello {name} a.k.a {heroName} ⏪
+            </h1>
+        </div>
+    )
+}
+export default JSXHello2;

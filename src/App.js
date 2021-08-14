@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Counter from './components/Counter';
-//import MyComponent from './components/Greet'
+import Hello from './components/Hello'
+import Welcome from './components/Welcome'
 function App() {
   return (
     <div className="App">
-      <Counter/>  
+      <Hello name="Tony Stark" heroName="IronMan"/>  
+      <Welcome name="Tony Stark" heroName="IronMan"/>  
     </div>
   );
 }
