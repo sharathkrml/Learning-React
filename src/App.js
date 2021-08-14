@@ -1,11 +1,9 @@
 import './App.css';
-import Hello from './components/Hello'
-import Welcome from './components/Welcome'
+import EventBind from './components/EventBind';
 function App() {
   return (
     <div className="App">
-      <Hello name="Tony Stark" heroName="IronMan"/>  
-      <Welcome name="Tony Stark" heroName="IronMan"/>  
+      <EventBind></EventBind>
     </div>
   );
 }
