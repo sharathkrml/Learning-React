@@ -1,0 +1,1 @@
+Data can be passed to children component via props
