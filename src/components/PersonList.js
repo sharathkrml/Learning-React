@@ -32,7 +32,7 @@ function PersonList() {
     //   My self {person.name}, I'm {person.age} years old, I' Known as{" "}
     //   {person.skill}
     // </h2>
-    <Person person={person}/>
+    <Person key={person.id} person={person}/>
   ));
   return <div>{personList}</div>;
 }
