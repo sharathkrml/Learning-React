@@ -1,10 +1,12 @@
 import './App.css';
 import './appStyles.css'
-import ParentComp from './components/ParentComp';
+import CallBackRef from './components/CallBackRef';
+// import RefsDemo from './components/RefsDemo';
 function App() {
   return (
     <div className="App">
-      <ParentComp/>
+      {/* <RefsDemo/> */}
+      <CallBackRef/>
     </div>
   );
 }
