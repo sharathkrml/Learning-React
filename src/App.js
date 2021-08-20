@@ -1,12 +1,10 @@
 import './App.css';
 import './appStyles.css'
-import CallBackRef from './components/CallBackRef';
-// import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 function App() {
   return (
     <div className="App">
-      {/* <RefsDemo/> */}
-      <CallBackRef/>
+      <FocusInput/>
     </div>
   );
 }
