@@ -1,11 +1,12 @@
 import './App.css';
 import './appStyles.css'
-import Table from './components/Table';
+import ParentComp from './components/ParentComp';
+import PureParentComp from './components/PureParentComp';
 function App() {
   return (
     <div className="App">
-      {/* <FragmentDemo/> */}
-      <Table/>
+      {/* <ParentComp/> */}
+      <PureParentComp/>
     </div>
   );
 }
